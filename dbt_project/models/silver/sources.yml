@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze_seismic
+    database: SEISMIC_ELT_DB
+    schema: BRONZE
+    tables:
+      - name: raw_earthquake_events
